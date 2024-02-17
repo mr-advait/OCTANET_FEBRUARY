@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana,;
+    margin: 100;
+    padding: 0;
+  }
+  
+  #todo-container {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #edf5f5;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 1;
+    margin: 10px 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 100px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
